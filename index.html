@@ -6,36 +6,102 @@
   <link rel="stylesheet" href="css/style.css">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
+  <script src="https://kit.fontawesome.com/8701d44bdc.js" crossorigin="anonymous"></script>
 </head>
 <header>
-  <nav class="nav justify-content-center" class="nav">
+  <nav class="nav justify-content-center" class="nav" id="nav-rocho">
     <img src="images/logo-branco.png" alt="logo" class="logo">
+  </nav>
+  <nav class="nav justify-content-center" class="nav" id="nav-branco">
+    <img src="images/logo-preto.png" alt="logo" class="logo">
+  </nav>
+  <nav class="nav justify-content-center" class="nav cinza" id="nav-cinza">
+    <img src="images/logo-rocho.png" alt="logo" class="logo">
+  </nav>
+  <nav class="nav justify-content-center" class="nav" id="nav-rocho-letra">
+    <img src="images/logo-branco-letra.png" alt="logo" class="logo-letra">
+  </nav>
+  <nav class="nav justify-content-center" class="nav" id="nav-branco-letra">
+    <img src="images/logo-preto-letra.png" alt="logo" class="logo-letra">
+  </nav>
+  <nav class="nav justify-content-center" class="nav cinza" id="nav-cinza-letra">
+    <img src="images/logo-rocho-letra.png" alt="logo" class="logo-letra">
   </nav>
   <h1 class="titulo mr-r">Documentação do projeto</h1>
 </header>
 <body>
+  <section>
+    <h2 class="titulo mr-r">Fonte: Poppins</h2>
+  </section>
   <div class="container">
     <section class="botoes">
-      <h2 class="titulo">Botões</h2>
       <div class="background-escuro">
+        <h2 class="titulo">Botões em background escuro</h2>
         <input type="button" value="small" class="btn-1-d btn-m">
         <input type="button" value="midium" class="btn-2-d btn-m">
         <input type="button" value="large" class="btn-3-d btn-m">
       </div>
       <div class="background-claro">
+        <h2 class="titulo">Botões em background claro</h2>
         <input type="button" value="small" class="btn-1-l btn-m">
         <input type="button" value="midium" class="btn-2-l btn-m">
         <input type="button" value="large" class="btn-3-l btn-m">
       </div>
     </section>
     <section class="fontes">
-      <h2 class="titulo">Font style</h2>
-      <p class="texto">Mussum Ipsum, cacilds vidis litro abertis. Admodum accumsan disputationi eu sit. Vide electram sadipscing et per. Per aumento de cachacis, eu reclamis. Paisis, filhis, espiritis santis. Cevadis im ampola pa arma uma pindureta.</p>
-      <h3 class="subtitulo">Paragrafo</h3>
-      <p class="texto">Mussum Ipsum, cacilds vidis litro abertis. Admodum accumsan disputationi eu sit. Vide
+      <h2 class="titulo">Titulo</h2>
+      <p class="texto">Texto: Mussum Ipsum, cacilds vidis litro abertis. Admodum accumsan disputationi eu sit. Vide electram sadipscing et per. Per aumento de cachacis, eu reclamis. Paisis, filhis, espiritis santis. Cevadis im ampola pa arma uma pindureta.</p>
+      <h3 class="subtitulo">Subtitulo</h3>
+      <p class="texto">Texto: Mussum Ipsum, cacilds vidis litro abertis. Admodum accumsan disputationi eu sit. Vide
         electram sadipscing et per. Per aumento de cachacis, eu reclamis. Paisis, filhis, espiritis santis. Cevadis im
         ampola pa arma uma pindureta.</p>
       </section>
     </div>
+    <section id="icones">
+      <h2 class="titulo mr-r">Icones</h2>
+      <ul class="ul-icone">
+        <li><i class="fas fa-award"></i></li>
+        <li><i class="fas fa-mail-bulk"></i></li>
+        <li><i class="far fa-envelope"></i></li>
+        <li><i class="fas fa-star"></i></li>
+        <li><i class="far fa-star"></i></li>
+        <li><i class="fas fa-coins"></i></li>
+        <li><i class="far fa-clock"></i></li>
+        <li><i class="far fa-times-circle"></i></li>
+        <li><i class="fas fa-times-circle"></i></li>
+        <li><i class="far fa-thumbs-up"></i></li>
+        <li><i class="fas fa-glasses"></i></i></li>
+        <li><i class="fas fa-chalkboard-teacher"></i></li>
+        <li><i class="far fa-hand-peace"></i></li>
+        <li><i class="fas fa-bell"></i></li>
+        <li><i class="fas fa-home"></i></li>
+        <li><i class="fas fa-address-card"></i></li>
+        <li><i class="fas fa-sign-out-alt"></i></li>
+        <li><i class="far fa-user-circle"></i></li>
+        <li><i class="far fa-image"></i></li>
+        <li><i class="fas fa-university"></i></li>
+        <li><i class="fas fa-book-reader"></i></li>
+        <li><i class="fas fa-trophy"></i></li>
+        <li><i class="far fa-comment-alt"></i></li>
+        <li><i class="far fa-edit"></i></li>
+        <li><i class="fas fa-search"></i></li>
+        <li><i class="fas fa-plus"></i></li>
+      </ul>
+    </section>
+    <section>
+      <h2 class="titulo mr-r" style="margin-bottom: 1em;">Paleta de cores</h2>
+      <div class="paleta">
+        <div class="_dark-primary-color"><code>--dark-primary-color: #7B1FA2</code></div>
+        <div class="_default-primary-color"><code>--default-primary-color:#9C27B0</code></div>
+        <div class="_light-primary-color"><code>--light-primary-color:#E1BEE7</code></div>
+        <div class="_text-primary-color"><code>--text-primary-color:#FFFFFF</code></div>
+        <div class="_accent-color"><code>--accent-color:#FF9800</code></div>
+        <div class="_primary-text-color"><code>--primary-text-color:#212121</code></div>
+        <div class="_secondary-text-color"><code>--secondary-text-color:#757575</code></div>
+        <div class="_divider-color"><code>--divider-color:#BDBDBD</code></div>
+        <div class="_light-background-color"><code>--light-background-color: #EDEDED</code></div>
+      </div>
+    </section>
+    <script src="index.js"></script>
   </body>
   </html>
